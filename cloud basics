@@ -1,0 +1,8 @@
+A Google Cloud project is an organizing entity for your Google Cloud resources. It often contains resources and services; for example, it may hold a pool of virtual machines, a set of databases, and a network that connects them together. Projects also contain settings and permissions, which specify security rules and who has access to what resources.
+
+in projects, 
+Role Name 	Permissions
+roles/viewer 	Permissions for read-only actions that do not affect state, such as viewing (but not modifying) existing resources or data.
+roles/editor 	All viewer permissions, plus permissions for actions that modify state, such as changing existing resources.
+roles/owner 	All editor permissions and permissions for the following actions: manage roles and permissions for a project and all resources within the project; set up billing for a project.
+
